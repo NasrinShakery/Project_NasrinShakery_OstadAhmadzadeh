@@ -383,6 +383,7 @@ section{
     height: 5rem;
     border-radius: 50%;
     object-fit: cover;
+     
 }
 .courses .box-container .box .tutor h3{
     font-size: 2rem;
@@ -397,7 +398,7 @@ section{
     width: 100%;
     border-radius: .5rem;
     height: 20rem;
-    object-fit: cover;
+    object-fit: contain;
 }
 .courses .box-container .box .title{
     font-size: 2rem;
