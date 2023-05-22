@@ -836,6 +836,94 @@ playlist .row .col .details .date{
     background-color: var(--light-bg);
     clip-path: polygon(50% 0%,0% 100%, 100% 100%);
 }
+/* ----------   Teacher ---------------- */
+.teachers .search-totur{
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1.5rem 2rem;
+    background-color: var(--white);
+    border-radius: .5rem;
+}
+.teachers .search-totur input{
+    width: 100%;
+    font-size: 1.8rm;
+    color: var(--black);
+    background: none;
+}
+.teachers .search-totur button{
+    font-size: 2rem;
+    cursor: pointer;
+    color: var(--black);
+    background: none;
+}
+.teachers .search-totur button:hover{
+    color: var(--main-color);
+}
+.teachers .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+    grid-gap: 1.5rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+.teachers .box-container .box{
+    border-radius: .5rem;
+    padding: 2rem;
+    background-color: var(--white);
+}
+.teachers .box-container .box .tutor{
+    margin-bottom: 1rm;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;   
+}
+.teachers .box-container .box .tutor img{
+    width: 5rem;
+    height: 5rem;
+    object-fit: cover;
+    border-radius: 50%;
+
+}
+.teachers .box-container .box .tutor h3{
+    color: var(--black);
+    font-size: 2rem;
+    margin-bottom: .2rem;
+}
+.teachers .box-container .box .tutor span{
+    color: var(--main-color);
+    font-size: 1.5rem;
+}
+.teachers .box-container .box p{
+    margin-top: 1rem;
+    font-size: 1.7rem;
+    color: var(--light-color);
+}
+.teachers .box-container .box p span{
+    color: var(--main-color);
+}
+.teachers .box-container .offer{
+    text-align: center;
+}
+.teachers .box-container .offer h3{
+    font-size: 2rem;
+    color: var(--black);
+}
+.teachers .box-container .offer p{
+    line-height: 2;
+    padding-bottom: .5rem;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
